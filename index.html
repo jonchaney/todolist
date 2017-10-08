@@ -10,8 +10,13 @@
 </head>
 <body>
   <h1>Todo List</h1>
+  <form>
+    <input type="text" name="item" placeholder="enter todo list item">
+    <button type="button" onclick="list.addItem()">add item</button>
+  </form>
+
   <main>
-    <ul class="list"></ul>
+    <ul id="list"></ul>
   </main>
   
 </body>
